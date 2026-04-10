@@ -10,9 +10,9 @@ the channel geometry and flow properties propagates to uncertainty in the
 discharge output Q.
 
 ## Model — Manning-Strickler Equation
-
+```
 Q = A · k_st · R_hy^(2/3) · J_E^(1/2)
-
+```
 For a trapezoidal cross-section:
 ```
 A     = (b + z·h) · h 
