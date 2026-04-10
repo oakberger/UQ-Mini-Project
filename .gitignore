@@ -1,0 +1,22 @@
+# Mac system files
+.DS_Store
+**/.DS_Store
+
+# MATLAB intermediate files
+*.asv          # auto-save files
+*.m~           # backup files
+*.mex*         # compiled MEX files
+*.mlappinstall # MATLAB app installer
+*.mlproj       # MATLAB project files
+#*.mat          # saved workspace files (comment out if you WANT to track .mat files)
+
+# MATLAB live script temp files
+*.slx~
+*.mlx~
+
+# Simulink
+*.slx.r*
+*.slxc
+
+# Build outputs
+codegen/
