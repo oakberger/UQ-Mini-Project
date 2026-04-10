@@ -14,10 +14,11 @@ discharge output Q.
 Q = A · k_st · R_hy^(2/3) · J_E^(1/2)
 
 For a trapezoidal cross-section:
-
-A     = (b + z·h) · h
+```
+A     = (b + z·h) · h 
 P_wet = b + 2·h·√(1 + z²)
 R_hy  = A / P_wet
+```
 
 Where:
 - Q     : Discharge [m³/s]                         ← output
