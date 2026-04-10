@@ -46,7 +46,7 @@ Where:
   rivers in the Swiss Mittelland — Uniform distribution applies.
 
 ## Project Structure
-
+```text
 UQ_Mini_Project/
 │
 ├── model/
@@ -76,7 +76,7 @@ UQ_Mini_Project/
 ├── exp_errors_vs_n.mlx    % errors vs sample size
 ├── exp_moments_vs_p.mlx   % moment convergence vs degree
 └── exp_moments_vs_n.mlx   % moment convergence vs sample size
-
+```
 ## PCE Method Summary
 
 1. Sample experimental design using Latin Hypercube Sampling (LHS)
