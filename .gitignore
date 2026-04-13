@@ -20,3 +20,4 @@
 
 # Build outputs
 codegen/
+.DS_Store
