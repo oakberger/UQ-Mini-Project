@@ -2,7 +2,7 @@
     % Output: X_ED (n×M), Y_ED (n×1)
     % Does:   LHS sampling + transform + model evaluation
 
-    function [X_ED, Y_ED] = sampleED(n, params, modelFun)
+    function [X_ED, Y_ED] = sampleED(n, params)
 % SAMPLEED Creates an experimental design using LHS
 %
 % Input:
@@ -44,6 +44,6 @@ for i = 1:M
 end
 
 % 3) Evaluate model
-Y_ED = modelFun(X_ED);
+Y_ED = riverDischarge(X_ED);
 
 end
