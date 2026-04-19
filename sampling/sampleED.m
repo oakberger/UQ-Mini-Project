@@ -11,9 +11,7 @@
 %              .type = 'uniform' or 'normal'
 %              .a, .b (for uniform)
 %              .mu, .sigma (for normal)
-%   modelFun - function handle (e.g. @myModel)
-%
-% Output:
+%   Output:
 %   X_ED (n x M) - sampled input matrix
 %   Y_ED (n x 1) - model responses
 
