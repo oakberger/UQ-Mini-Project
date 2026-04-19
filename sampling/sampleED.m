@@ -26,12 +26,12 @@ U = lhsdesign(n, M);
 X_ED = zeros(n, M);
 
 for i = 1:M
-    
+% Gibt fuer die uniform verteilten Variabeln einen Wert zwischen a und b aus
     if strcmp(params(i).type, 'uniform')
         a = params(i).a;
         b = params(i).b;
         X_ED(:,i) = a + (b - a) * U(:,i);
-        
+% Gibt fuer die normalverteilten Variabeln einen Wert gemäss Verteilung aus        
     elseif strcmp(params(i).type, 'normal')
         mu = params(i).mu;
         sigma = params(i).sigma;
