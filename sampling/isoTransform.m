@@ -8,21 +8,15 @@ function Xi = isoTransform(X, params)
 
     for i = 1:M
     
-    if strcmp(params(i).type, 'uniform')
-        a = params(i).a;
-        b = params(i).b;
-        Xi(:,i) = (2*X(:,i) - (a + b)) / (b - a);
-        
-    elseif strcmp(params(i).type, 'normal')
-        mu = params(i).mu;
-        sigma = params(i).sigma;
-        Xi(:,i) = (X(:,i) - mu) / sigma;
-        
-    else
-        error('Unknown distribution type');
-    end
+        if strcmp(params(i).type, 'uniform')
+            Xi(:,i) = (2*X(:,i) - (params(i).a + params(i).b)) / (params(i).b - params(i).a);
+        elseif strcmp(params(i).type, 'normal')
+            Xi(:,i) = (X(:,i) - params(i).mu) / params(i).sigma;
+        else
+            error('Unknown distribution type');
+        end
     
-end
+    end
 end
 
 
