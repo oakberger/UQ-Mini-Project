@@ -15,7 +15,7 @@ P = size(alphas, 1);
 Psi = ones(n, P);   % initialize to 1 for multiplicative tensor product
 
 for j = 1:P             % loop over basis elements (columns)
-    for k = 1:params.M  % loop over input dimensions
+    for k = 1:numel(params)  % loop over input dimensions
         degree = alphas(j, k);
 
         if strcmp(params(k).type, 'uniform')
