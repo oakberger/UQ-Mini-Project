@@ -73,9 +73,7 @@ UQ_Mini_Project/
     ├── main.mlx               % master script
     ├── exp_YY_plots.mlx       % Y-Y plots
     ├── exp_errors_vs_p.mlx    % errors vs polynomial degree
-    ├── exp_errors_vs_n.mlx    % errors vs sample size
-    ├── exp_moments_vs_p.mlx   % moment convergence vs degree
-    └── exp_moments_vs_n.mlx   % moment convergence vs sample size
+    └── exp_errors_vs_n.mlx    % errors vs sample size
 ```
 ## PCE Method Summary
 
