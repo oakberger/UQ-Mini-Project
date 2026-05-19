@@ -15,7 +15,7 @@ for idx = 1:2
     subplot(1, 2, idx);
     scatter(Y_ED, Y_PCE_ED, 15, 'filled');
     hold on;
-    lims = [min(Y_ED), max(Y_ED)];
+    lims = [0, max(Y_ED)];     % 0 - max(Y_ED) for nicer visualization
     plot(lims, lims, 'r--', 'LineWidth', 1.5);
     hold off;
     xlabel('M(x) [m^3/s]');
