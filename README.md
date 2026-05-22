@@ -91,4 +91,4 @@ UQ_Mini_Project/
 
 ## Authors
 
-Group X | ETH Zürich | 2026
+Group 10 | ETH Zürich | 2026
